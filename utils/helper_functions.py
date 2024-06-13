@@ -28,6 +28,30 @@ def check_for_content(var):
     else:
         var
 
+def generate_report_from_outline(outline):
+    report = {
+        "Title": outline["Title"],
+        "Sections": []
+    }
+
+    for section in outline["Sections"]:
+        section_content = {
+            "Section Title": section["Section Title"],
+            "Content": []
+        }
+
+        for subsection in section["Content"]:
+            subsection_content = {
+                "Subsection Title": subsection["Subsection Title"],
+                "Content": subsection["Content"]
+            }
+            section_content["Content"].append(subsection_content)
+
+        report["Sections"].append(section_content)
+
+    return report
+
+
 
 # def custom_print(message, stdscr=None):
 #     if stdscr:

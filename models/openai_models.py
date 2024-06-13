@@ -1,4 +1,5 @@
 from langchain_openai import ChatOpenAI
+from langsmith import Client
 from utils.helper_functions import load_config
 import os
 
@@ -7,14 +8,15 @@ load_config(config_path)
 
 
 def get_open_ai(temperature=0, model='gpt-3.5-turbo'):
-
+    client = Client()
     llm = ChatOpenAI(
     model=model,
     temperature = temperature,
 )
     return llm
 
-def get_open_ai_json(temperature=0, model='gpt-3.5-turbo'):
+def get_open_ai_json(temperature=0, model='gpt-3.5-turbo-1106'):
+    client = Client()
     llm = ChatOpenAI(
     model=model,
     temperature = temperature,

@@ -1,0 +1,122 @@
+{
+    "Business Name": "Fitness First",
+    "Industry": "Health and Wellness",
+    "Marketing Budget": "$45,000",
+    "Main Focus": "Customer Acquisition",
+    "Past Marketing/Growth Attempts": [
+        {
+            "Attempt": "Referral Program",
+            "Description": "Launched a referral program offering discounts for every new member referred.",
+            "Results": "Increased membership sign-ups by 25%, but high discount costs."
+        },
+        {
+            "Attempt": "Local Event Sponsorships",
+            "Description": "Sponsored local fitness events and marathons.",
+            "Results": "Boosted local brand presence, but limited impact on new member acquisition."
+        },
+        {
+            "Attempt": "Digital Content",
+            "Description": "Created online workout videos and fitness guides.",
+            "Results": "High engagement with content, but low conversion to membership."
+        }
+    ],
+    "Website": "https://www.fitnessfirst.com",
+    "Internet Questions": [
+        "What are the current trends in health and wellness promotion and marketing strategies?",
+        "How are companies in the health and wellness industry diversifying their product offerings?",
+        "What are the latest digital health solutions being implemented in the industry?",
+        "How effective are holistic wellness programs in improving overall health and well-being?",
+        "What are the emerging personalized health services in the market and how are they being received by consumers?",
+        "What are some successful examples of corporate wellness initiatives and their impact on employee health and productivity?"
+    ],
+    "Categorized Questions": {
+        "Health and Wellness Trends": [
+            "What are the current trends in health and wellness promotion and marketing strategies?",
+            "How are companies in the health and wellness industry diversifying their product offerings?",
+            "What are the latest digital health solutions being implemented in the industry?"
+        ],
+        "Holistic Wellness and Personalized Health": [
+            "How effective are holistic wellness programs in improving overall health and well-being?",
+            "What are the emerging personalized health services in the market and how are they being received by consumers?"
+        ],
+        "Corporate Wellness Initiatives": [
+            "What are some successful examples of corporate wellness initiatives and their impact on employee health and productivity?"
+        ]
+    },
+    "Experiments": {
+        "Health and Wellness": {
+            "Customer Acquisition": [
+                {
+                    "Name": "Referral Program Experiment",
+                    "Description": "Implement a referral program where existing customers are incentivized to refer new customers. The program will be promoted through email campaigns and social media. Existing customers will receive a reward for each successful referral, and new customers will also receive a discount on their first purchase.",
+                    "Hypothesis": "We expect that implementing a referral program will increase customer acquisition by leveraging the existing customer base to bring in new customers.",
+                    "Metrics": [
+                        "Number of successful referrals",
+                        "Increase in new customer sign-ups",
+                        "Conversion rate of referred customers"
+                    ],
+                    "Impact": 9,
+                    "Confidence": 7,
+                    "Ease": 6,
+                    "AverageScore": 7.3
+                },
+                {
+                    "Name": "Local Event Sponsorship Experiment",
+                    "Description": "Sponsor a local event or community gathering where the target audience is likely to be present. This could be a charity event, sports tournament, or cultural festival. The business will have a presence at the event, with a booth or promotional materials, and may offer exclusive discounts or giveaways to event attendees.",
+                    "Hypothesis": "By sponsoring a local event, we expect to increase brand visibility and attract new customers who are already engaged with the local community.",
+                    "Metrics": [
+                        "Number of event attendees engaged with the business",
+                        "Increase in website traffic from the local area",
+                        "Number of new customers from the event"
+                    ],
+                    "Impact": 7,
+                    "Confidence": 8,
+                    "Ease": 5,
+                    "AverageScore": 6.7
+                },
+                {
+                    "Name": "Partnership Marketing Experiment",
+                    "Description": "Form partnerships with non-competing businesses that share a similar target audience. This could involve cross-promotions, co-branded marketing campaigns, or bundled offers. By leveraging the customer base of partner businesses, the aim is to reach new potential customers.",
+                    "Hypothesis": "We hypothesize that partnering with complementary businesses will expose our brand to a wider audience and result in an increase in customer acquisition.",
+                    "Metrics": [
+                        "Number of partner referrals",
+                        "Conversion rate of partner-referred customers",
+                        "Increase in overall customer base"
+                    ],
+                    "Impact": 8,
+                    "Confidence": 6,
+                    "Ease": 7,
+                    "AverageScore": 7.0
+                },
+                {
+                    "Name": "Online Advertising Experiment",
+                    "Description": "Invest in targeted online advertising campaigns on platforms such as social media, search engines, or industry-specific websites. The ads will be tailored to reach the desired demographic and will direct users to a dedicated landing page or offer.",
+                    "Hypothesis": "We believe that targeted online advertising will increase brand visibility and drive traffic to our website, resulting in a higher number of new customer acquisitions.",
+                    "Metrics": [
+                        "Click-through rate of ads",
+                        "Conversion rate of ad-driven traffic",
+                        "Cost per acquisition from online ads"
+                    ],
+                    "Impact": 8,
+                    "Confidence": 7,
+                    "Ease": 6,
+                    "AverageScore": 7.0
+                },
+                {
+                    "Name": "Customer Segmentation Experiment",
+                    "Description": "Segment the existing customer base based on behavior, demographics, or purchase history. Tailor personalized marketing campaigns and offers to each segment to better address their specific needs and preferences.",
+                    "Hypothesis": "We expect that personalized marketing based on customer segmentation will lead to higher customer engagement and acquisition by delivering more relevant and targeted messaging.",
+                    "Metrics": [
+                        "Increase in engagement from segmented customers",
+                        "Conversion rate of segmented customer campaigns",
+                        "Overall growth in customer base"
+                    ],
+                    "Impact": 7,
+                    "Confidence": 8,
+                    "Ease": 5,
+                    "AverageScore": 6.7
+                }
+            ]
+        }
+    }
+}
